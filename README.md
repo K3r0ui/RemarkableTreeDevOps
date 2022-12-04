@@ -6,7 +6,7 @@ sudo sysctl fs.inotify.max_user_watches=100000
 ```
 Pour builder l'image et executer le projet la premiere fois
 ```bash
-docker-ccompose up --build
+docker-compose up --build
 ```
 # Autre commandes utiles : 
 1- pour stopper le container 
