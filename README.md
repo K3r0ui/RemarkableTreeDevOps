@@ -8,7 +8,7 @@ Pour builder l'image et executer le projet la premiere fois
 ```bash
 docker-ccompose up --build
 ```
-Autre commandes utiles : 
+# Autre commandes utiles : 
 1- pour stopper le container 
 ```bash
 docker-compose stop
@@ -17,4 +17,4 @@ docker-compose stop
 ```bash
 docker-compose up
 ```
-# http://localhost:8501
+# Lien: http://localhost:8501
