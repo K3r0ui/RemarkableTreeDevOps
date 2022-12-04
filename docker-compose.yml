@@ -1,0 +1,18 @@
+version: "2.2"
+
+
+services:
+    remarkabletree:
+      container_name: remarkabletree
+      build: ./
+      image: remarkabletreeimagelast
+      ports:
+        - "8501:8501"
+      networks:
+        remarkabletree-network:
+          aliases:
+            - remarkabletree
+      
+networks:
+  remarkabletree-network:
+    driver: bridge
