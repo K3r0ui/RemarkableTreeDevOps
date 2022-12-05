@@ -26,4 +26,8 @@ docker compose build --no-cache
 ```bash
 docker-compose up
 ```
+3- executer cette commandes pour augmenter le nombre de notifier 
+```bash
+sudo sysctl fs.inotify.max_user_watches=100000
+```
 # Lien: http://localhost:8501
