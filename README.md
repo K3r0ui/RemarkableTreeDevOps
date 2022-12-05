@@ -17,4 +17,13 @@ docker-compose stop
 ```bash
 docker-compose up
 ```
+# Des commandes si vous avez telecharger le projet avant la mise à jour : 
+1- Creation du projet nouvelle fois  
+```bash
+docker compose build --no-cache
+```
+2- pour lancer le container
+```bash
+docker-compose up
+```
 # Lien: http://localhost:8501
